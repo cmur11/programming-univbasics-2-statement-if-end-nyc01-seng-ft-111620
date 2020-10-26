@@ -15,10 +15,10 @@
 # this_year = Time.now.year
 # puts "Hey, it's not 2019!" unless this_year == 2019
 
-current_time = Time.now
-current_time = current_time.to_i
+# current_time = Time.now
+# current_time = current_time.to_i
 
-if current_time.even?
+if Time.now.to_i.even?
   puts "Even!"
 else
   puts "Odd!"
